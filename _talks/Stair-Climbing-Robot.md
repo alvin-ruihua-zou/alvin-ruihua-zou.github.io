@@ -1,5 +1,5 @@
 ---
-title: "Stair Climbing Food Delivery Robot"
+title: "Robotics Capstone - Stair Climbing Food Delivery Robot"
 collection: talks
 type: "complete"
 permalink: /projects/stair-climbing-robot
