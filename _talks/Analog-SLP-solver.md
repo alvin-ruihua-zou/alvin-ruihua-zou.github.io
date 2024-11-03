@@ -14,5 +14,5 @@ Details of the project can be found in the following document.\
 
 Introduction
 ======
-In this project me and two other teammates designed an analog computer consisting of a Raspi and a PCB that uses sequential linear programming(SLP) to solve damped pendulum swing up
+In this project two other teammates and I designed an analog computer consisting of a Raspi and a PCB that uses sequential linear programming(SLP) to solve damped pendulum swing up
 with nonlinear model predictive control(NMPC), demonstrating the feasibility of using custom analog computers to solve control problems faster than existing solutions. I mainly worked on calculating system dynamics, formulating the NMPC problem, implementing the SLP solver, and simulating the entire system.
