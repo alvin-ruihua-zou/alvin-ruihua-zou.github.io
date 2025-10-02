@@ -5,7 +5,7 @@ type: "complete"
 permalink: /projects/stair-climbing-robot
 # venue: "UC San Francisco, Department of Testing"
 # date: 2012-03-01
-excerpt: "In this project I built a robot that could deliver food through autonomous navigation and stair climbing."
+excerpt: "In this project I built a robot that could deliver food through autonomous navigation and stair climbing.<br/><img src='/images/stair-climbing-robot.jpg' width = '300' height = '300'>"
 # location: "San Francisco, California"
 ---
 Details of the project can be found in the following system design and development document.\

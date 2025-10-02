@@ -1,13 +1,14 @@
 ---
 title: "Robot Arm Manipulation"
 collection: talks
-type: "Tutorial"
+type: "complete"
 permalink: /projects/robot-arm-manipulation
+excerpt: "In this project I programmed a six degree of freedom robotic arm to stack Jenga blocks using matlab."
 # venue: "UC-Berkeley Institute for Testing Science"
 # date: 2022-08
 # location: "Berkeley CA, USA"
 ---
 
-<!-- [More information here](http://exampleurl.com) -->
+In this project I programmed a six degree of freedom robotic arm to stack Jenga blocks using matlab. The task was to retrieve Jenga blocks from a feeder and stack them in the designated area into a 3 layered tower, where each layer consisted of three Jenga blocks. The task was completed using inverse kinematics to calculate the waypoints, and trajectory control to move between them.
 
-This is a description of your tutorial, note the different field in type. This is a markdown files that can be all markdown-ified like any other post. Yay markdown!
+<video muted src="/video/jenga_stacking.mov" type="video/mov" controls style="max-width: 50%; height: auto; display: block; margin: 0 auto;">></video>
