@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a master's student pursuing a Master's of Science in Robotics at Carnegie Mellon University. I also took my undergrad at CMU, where I received a bachelor's of science in Electrical & Computer Engineering with an additional major in robotics.
+I am Alvin Zou, currently a second year master's student pursuing a Master's of Science in Robotics at Carnegie Mellon University advised by Maxim Likhachev in the Search Based Planning Lab. My research interests are in path and motion planning, as well as search algorithms. Currently, I am researching on developing planning algorithms that are more memory efficient and run faster than conventional planners. Examples include improving the memory usage of best first search, speeding up A* through parallelization, and making multi agent path finding algorithms more scalable.
+
+More generally, I am passionate about robotics, especially mobile robots and autonomous vehicles.
 
 
 Projects
