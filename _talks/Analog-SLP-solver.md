@@ -3,14 +3,14 @@ title: "ECE Capstone - Analog Sequential Linear Programming Solver"
 collection: talks
 type: "complete"
 permalink: /projects/analog-SLP-solver
-excerpt: "In this project I designed an analog computer that uses sequential linear programming to solve damped pendulum swing up with nonlinear model predictive control."
+excerpt: "In this project I designed an analog computer that uses sequential linear programming to solve damped pendulum swing up with nonlinear model predictive control.<img src='/images/animation_swing_up.gif' width = '500' height = '500'>"
 # venue: "Testing Institute of America 2014 Annual Conference"
 # date: 2024-1
 # location: "Los Angeles, CA"
 ---
 
-Details of the project can be found in the following document.\
-[Project Document](http://alvin-ruihua-zou.github.io/files/analog-slp.pdf)
+Details of the project can be found in the following report.\
+[Project Report](http://alvin-ruihua-zou.github.io/files/analog-slp.pdf)
 
 Introduction
 ======

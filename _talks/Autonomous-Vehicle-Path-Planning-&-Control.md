@@ -3,7 +3,7 @@ title: "Autonomous Vehicle Path Planning & Control"
 collection: talks
 type: "complete"
 permalink: /projects/AV-path-planning-and-control
-excerpt: "In this project I created a simulation of AV navigation in a parking lot."
+excerpt: "In this project I created a simulation of AV navigation in a parking lot.<img src='/images/animation_demo.gif' width = '480' height = '480'>"
 # venue: "London School of Testing"
 # date: 2014-02-01
 # location: "London, UK"

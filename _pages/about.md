@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to my website!"
+title: "Hi! I'm Alvin Zou :D"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,7 +9,15 @@ redirect_from:
 
 I am Alvin Zou, currently a second year master's student pursuing a Master's of Science in Robotics at Carnegie Mellon University advised by Maxim Likhachev in the Search Based Planning Lab. My research interests are in path and motion planning, as well as search algorithms. Currently, I am researching on developing planning algorithms that are more memory efficient and run faster than conventional planners. Examples include improving the memory usage of best first search, speeding up A* through parallelization, and making multi agent path finding algorithms more scalable.
 
-More generally, I am passionate about robotics, especially mobile robots and autonomous vehicles.
+More generally, I am passionate about robotics, especially mobile robots and autonomous vehicles!
+
+
+Research 
+======
+
+[Attractor-based Closed List Search: Sparsifying the Closed List for Efficient Memory-Constrained Planning](https://www.ijcai.org/proceedings/2025/1004)
+
+Best-first search algorithms such as A* and Weighted A* are widely used tools. However, their high memory requirements often make them impractical for memory-constrained applications, such as on-board planning for interplanetary rovers, drones, and embedded systems. One popular strategy among memory-efficient approaches developed to address this challenge is to eliminate or sparsify the Closed list, a structure that tracks states explored by the search. However, such methods often incur substantial overhead in runtime, requiring recursive searches for solution reconstruction. In this work, we propose Attractor-based Closed List Search (ACLS), a novel framework that sparsely represents the Closed list using a small subset of states, termed attractors. ACLS intelligently identifies attractor states in a way that enables efficient solution reconstruction while preserving theoretical guarantees on the quality of the solution. Furthermore, we also introduce a lazy variant, Lazy-ACLS, which defers the computation of attractor states until necessary, substantially improving planning speed. We demonstrate the efficacy of ACLS used in conjunction with A*, Weighted A*, and Dijkstra’s searches across multiple domains including 2D and 3D navigation, Sliding Tiles, and Towers of Hanoi. Our experimental results demonstrate that ACLS significantly reduces memory usage, maintaining only 9% of the states typically stored in a Closed list, while achieving comparable planning times and outperforming state-of-the-art approaches. Source code can be found at github.com/alvin-ruihua-zou/ACLS.
 
 
 Projects
@@ -20,6 +28,43 @@ Projects
 {% include archive-single-talk.html %}
 {% endif %}
 {% endfor %}
+
+
+
+Education
+======
+<div class="grid__wrapper">
+  <div class="grid__item">
+    <div class="archive__item">
+      <div class="archive__item-teaser" style="width: 170px; margin-right: 20px; align-items: center;">
+        <img src="/images/CMU_logo_287x287.png" alt="Carnegie Mellon University logo" style="width: 100%; height: auto;">
+      </div>
+      <div class="archive__item-body">
+        <h3 class="archive__item-title">Carnegie Mellon University</h3>
+        <p>Master of Science in Robotics, 2024-present</p>
+        <p>Advisor: Maxim Likhachev</p>
+        <p>Search Based Planning Lab</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="grid__wrapper">
+  <div class="grid__item">
+    <div class="archive__item">
+      <div class="archive__item-teaser" style="width: 170px; margin-right: 20px; align-items: center;">
+        <img src="/images/CMU_logo_287x287.png" alt="Carnegie Mellon University logo" style="width: 100%; height: auto;">
+      </div>
+      <div class="archive__item-body">
+        <h3 class="archive__item-title">Carnegie Mellon University</h3>
+        <p>B.S. in Electrical & Computer Engineering, 2020-2024</p>
+        <p>Additional Major in Robotics</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 <!-- A data-driven personal website
 ======
